@@ -103,15 +103,5 @@
             key-positions = <14 24>;
             bindings = <&kp GRAVE>;
         };
-        combo_bootloader1 {
-            timeout-ms = <100>;
-            key-positions = <30 32>;
-            bindings = <&bootloader>;
-        };
-        combo_bootloader2 {
-            timeout-ms = <100>;
-            key-positions = <33 35>;
-            bindings = <&bootloader>;
-        };
     };
 };
