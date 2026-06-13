@@ -4,7 +4,7 @@ name: SlimKeeb
 types: shield
 url: https://github.com/Palpatineli/cardkeeb
 requires:
-  - seeeduino_xiao_ble
+  - xiao_ble//zmk
 features:
   - keys
 siblings:
