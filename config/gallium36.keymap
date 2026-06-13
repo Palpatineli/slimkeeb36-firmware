@@ -73,26 +73,26 @@
         // This is a sample keymap intended to be replaced with your own
         default_layer { // gallium homerow
             bindings = <
-                &kp B &kp L       &kp D       &kp C        &kp V        &kp J        &kp F        &kp O        &kp U       &td1
-                &kp N &lhm LALT R &lhm LCTRL T &lhm LSHFT S &kp G        &kp Y        &rhm RSHFT H &rhm RCTRL A &rhm LALT E &kp I
-                &kp X &kp Q       &kp M       &kp W        &kp Z        &kp K        &kp P        &kp SQT      &kp SEMI    &kp DOT
-                                  &kp ESC     &mo_kp 2 TAB &kp SPACE    &kp SPACE    &mo_kp 1 RET &kp BSPC
+                &kp B &kp L       &kp D          &kp C        &kp V     &kp J            &kp F        &kp O        &kp U       &td1
+                &kp N &lhm LALT R &lhm LCTRL T   &kp S        &kp G     &kp Y            &kp H        &rhm RCTRL A &rhm LALT E &kp I
+                &kp X &kp Q       &kp M          &kp W        &kp Z     &kp K            &kp P        &kp SQT      &kp SEMI    &kp DOT
+                                  &lhm LSHFT ESC &mo_kp 2 TAB &kp SPACE &rhm LSHFT SPACE &mo_kp 1 RET &kp BSPC
             >;
         };
         function_layer {
             bindings = <
-                &kp F1   &kp F2   &kp F3    &kp F4       &kp F5    &kp F6    &kp F7           &kp F8           &kp F9        &td2
-                &kp LEFT &kp UP   &kp T     &kp BSLH     &kp FSLH  &kp HOME  &rhm RSHFT PG_DN &rhm RCTRL PG_UP &rhm LALT END &kp PSCRN
-                &kp X    &kp DOWN &kp RIGHT &kp W        &kp Z     &kp K     &td0             &kp SQT          &kp F11       &kp F12
-                                  &kp ESC  &mo_kp 2 TAB &kp SPACE &kp SPACE &kp RET          &kp BSPC
+                &kp F1   &kp F2   &kp F3    &kp F4       &kp F5    &kp F6           &kp F7    &kp F8           &kp F9        &td2
+                &kp LEFT &kp UP   &kp T     &kp BSLH     &kp FSLH  &kp HOME         &kp PG_DN &rhm RCTRL PG_UP &rhm LALT END &kp PSCRN
+                &kp X    &kp DOWN &kp RIGHT &kp W        &kp Z     &kp K            &td0      &kp SQT          &kp F11       &kp F12
+                                  &kp ESC   &mo_kp 2 TAB &kp SPACE &rhm LSHFT SPACE &kp RET   &kp BSPC
             >;
         };
         number_layer {
             bindings = <
-                &kp N1   &kp N2   &kp N3    &kp N4      &kp N5    &kp N6    &kp N7          &kp N8           &kp N9        &kp N0
-                &kp LEFT &kp UP   &lhm LCTRL MINUS &lhm LSHIFT EQUAL  &kp HASH  &kp LBKT  &rhm RSHFT LPAR &rhm RCTRL RPAR &rhm LALT RBKT &kp AT
-                &kp EXCL &kp DOWN &kp RIGHT &kp DLLR    &kp PRCNT &kp CARET &kp AMPS        &kp STAR         &kp TILDE     &kp PIPE
-                                  &kp LGUI   &kp TAB     &kp SPACE &kp SPACE &kp RET         &kp DEL
+                &kp N1   &kp N2   &kp N3           &kp N4    &kp N5    &kp N6           &kp N7   &kp N8          &kp N9         &kp N0
+                &kp LEFT &kp UP   &lhm LCTRL MINUS &kp EQUAL &kp HASH  &kp LBKT         &kp LPAR &rhm RCTRL RPAR &rhm LALT RBKT &kp AT
+                &kp EXCL &kp DOWN &kp RIGHT        &kp DLLR  &kp PRCNT &kp CARET        &kp AMPS &kp STAR        &kp TILDE      &kp PIPE
+                                  &lhm LSHFT LGUI  &kp TAB   &kp SPACE &rhm LSHFT SPACE &kp RET  &kp DEL
             >;
         };
     };
